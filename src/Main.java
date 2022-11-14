@@ -7,11 +7,10 @@ public class Main {
       minus(one);
     }
     public static void minus(int a){
-        int []array ={a};
-        for (int i = array.length ; i <=0; i++) {
-            System.out.print(array[i]);
-
-        }
+     int one = (a/100)%10;
+     int two = (a/10)%10;
+     int three = a%10;
+        System.out.println(three+""+two+""+one);
     }
 
 }
